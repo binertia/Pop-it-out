@@ -1,0 +1,171 @@
+html {
+    font-size : 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #868F70;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #fff;
+
+}
+
+button {
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.95);
+}
+input:focus,button:focus {
+    outline: none;
+}
+
+
+
+
+head:after {
+    
+    background: #fff;
+}
+
+
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin: 50 50 2.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+form {
+    position: relative;
+    width: 500px;
+    max-width: 60%;
+    margin: auto;
+
+    }
+form input {
+    border: 0;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 100%;
+    }
+form button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #AD593F;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding: 13px 30px;
+    }
+.btn {
+    background-color: #FCE297;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 4px 10px;
+}
+
+ul.song{
+    list-style-type: none;
+}
+
+ul.song li {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.container{
+    margin: 30px auto;
+    max-width: 100%;
+    width: 500px;
+}
+
+.container h2 {
+    font-weight: 200;
+}
+
+.container p {
+    text-align: center;
+}
+
+.centered {
+
+    justify-content: center;
+}
+
+.centered button {
+    transform: scale(1.3);
+    margin: 15px;
+}
+.containerMain {
+    width: 100 vw;
+    height: 100 vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 3fr 1fr 3fr ;
+    grid-template-rows: 20px 1fr 3fr 1fr 3fr 1fr;
+    gap: 0.5rem;
+}
+
+
+#nav1 {
+    grid-area: 1/2/2/3;
+    color: #fff;
+    font-size: 1.3rem; 
+    font-family:"Georgia, 'Times New Roman', Times, serif"
+}
+
+#nav2 {
+    grid-area: 1/3/2/4;
+    color: #fff;
+    font-size: 1.3rem; 
+    font-family:"Georgia, 'Times New Roman', Times, serif"
+}
+
+#nav3 {
+    grid-area: 1/4/2/5;
+    color: #fff;
+    font-size: 1.3rem; 
+    font-family:"Georgia, 'Times New Roman', Times, serif"
+}
+
+#nav4 {
+    grid-area: 1/5/2/6;
+    color: #fff;
+    font-size: 1.3rem; 
+    font-family:"Georgia, 'Times New Roman', Times, serif"
+}
+
+#headerBox {
+
+     background: #D0B990;
+     grid-area: 4/2/4/4;
+
+
+}
+
+#menu {
+    color: #CBC6A9;
+}
+
+#boxA {
+    background: #ABA99C;
+}
+
+#boxBody {
+    background : #808870;
+    padding : 0.2rem;
+}
